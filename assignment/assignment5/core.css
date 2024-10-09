@@ -1,0 +1,43 @@
+body{
+    background-color: pink;
+    font-family: 'Itim';
+}
+
+hr{
+    border: 1px solid rgb(228, 152, 165);
+}
+
+.center{
+    text-align: center;
+}
+
+.box{
+    width: 100%;
+    background-color: rgb(255, 216, 221);
+    border: 3px solid rgb(127, 225, 255);
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+textarea{
+    width: 100%;
+    background-color: aliceblue;
+    border: 3px solid rgb(127, 240, 255);
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button{
+    width: 15%;
+    font-size: 150%;
+    background-color: rgb(154, 226, 255);
+    border: 3px solid rgb(255, 127, 155);
+    border-radius: 15px;
+    font-family: 'Itim';
+}
+
+.topic{
+    font-size: larger;
+}

@@ -1,0 +1,180 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+
+.grid-container > div{
+    border: 7px solid green;
+    text-align: center;
+    background-color:red;
+    border-radius: 6%;
+}
+
+.nopadding{
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+#header{
+    grid-column: 1 / span 2;
+}
+
+#left{
+    grid-column: 1 / span 1;
+}
+
+#right{
+    grid-column: 2 / span 1;
+}
+
+div {
+    text-align: center;
+    color: white;
+}
+
+img {
+    width: 100%;
+    border-radius: 8%;
+}
+
+h1{
+    font-size: 300%;
+}
+
+h2{
+    font-size: 300%;
+}
+
+ul{
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
+
+li{
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    font-size: 250%;
+}
+
+@media only screen and (max-width: 767px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+    }
+    
+    .grid-container > div{
+        border: 7px solid green;
+        text-align: center;
+        background-color:red;
+        border-radius: 6%;
+    }
+    
+    #header{
+        grid-column: 1 / span 2;
+    }
+    
+    #left{
+        grid-column: 1 / span 2;
+    }
+    
+    #right{
+        grid-column: 1 / span 2;
+    }
+    
+    div {
+        text-align: center;
+        color: white;
+    }
+    
+    img {
+        width: 100%;
+        border-radius: 8%;
+    }
+    
+    h1{
+        font-size: 200%;
+    }
+    
+    h2{
+        font-size: 200%;
+    }
+    
+    ul{
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+    
+    li{
+        text-align: left;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        font-size: 200%;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    body{
+        background-color: red;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+    }
+    
+    .grid-container > div{
+        border: 7px solid green;
+        text-align: center;
+        background-color:wheat;
+        border-radius: 6%;
+    }
+    
+    #header{
+        grid-column: 1 / span 2;
+    }
+    
+    #left{
+        grid-column: 1 / span 2;
+    }
+    
+    #right{
+        grid-column: 1 / span 2;
+    }
+    
+    div {
+        text-align: center;
+        color: black;
+    }
+    
+    img {
+        width: 100%;
+        border-radius: 8%;
+    }
+    
+    h1{
+        font-size: 200%;
+    }
+    
+    h2{
+        font-size: 200%;
+    }
+    
+    ul{
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+    
+    li{
+        text-align: left;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2%;
+        font-size: 200%;
+    }
+
+}

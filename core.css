@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f6cb9d;
+    font-family: 'Itim', cursive;
+}
+
+nav {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    position: fixed;
+    background-color: #fcae5b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav .logo p {
+    font-size: 250%;
+    font-weight: bold;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 3%;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    font-size: 100%;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    color: rgb(255, 134, 41);
+    background-color: azure;
+    text-decoration: none;
+    border: 5px solid rgb(255, 134, 41);
+    border-radius: 30px;
+    transition: all 0.4s ease;
+}
+
+nav li a:hover {
+    color: black;
+    background-color: rgb(145, 255, 255);
+}
+
+.content {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.grid-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 8px solid #fcaf5d;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.circle-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h1{
+    font-size: 350%;
+    color: #ff7f50;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 250%;
+    color: #ff7f50;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+
+h3{
+    font-size: 200%;
+    color: #ff7f50;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 125%;
+    margin-bottom: 10px;
+}
+
+p a{
+    color: rgb(127, 180, 255);
+}
+
+#base {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #ffbd77;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    bottom: 0;
+    position: relative;
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+}
+
+.Squre {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.botton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.botton:hover {
+    color: black;
+    background-color: rgb(145, 255, 255);
+}
+
+#shadow {
+    text-shadow: 0 0 5px #00ddff;
+}
+
+@media (max-width: 1024px) {
+    nav {
+        width: 100%;
+        height: 55px;
+        line-height: 55px;
+        position: fixed;
+        background-color: #fcae5b;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2%;
+        top: 0;
+        z-index: 1000;
+    }
+
+    nav li a {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+    }
+
+    .content {
+        margin-top: 100px;
+        padding: 20px;
+    }
+
+    h1, h2, h3, p {
+        margin-bottom: 1%;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .botton {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 2%;
+    }
+
+    nav .logo p {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li a {
+        padding: 10px 30px;
+        font-size: 1rem;
+    }
+
+    .content {
+        margin-top: 225px;
+        padding: 20px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .circle-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .botton {
+        width: 100%;
+    }
+}

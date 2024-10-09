@@ -1,0 +1,73 @@
+body{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+div{
+    text-align: center;
+    justify-content: center;
+}
+
+.left_page{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.right_page{
+    text-align: right;
+ 
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+img{
+    border-radius: 30px;
+}
+
+#pic1{
+    width:90%;
+}
+
+#pic2{
+    width:30%;
+}
+
+.flex_container{
+    display: flex;
+    border: 5px dotted lightblue;
+    border-radius: 50px;
+    flex-wrap: nowrap;
+    background-color: rgb(248, 235, 161);
+    margin: 2%;
+    box-shadow: 5px 10px #02492865;
+}
+
+div h1{
+    width:90%;
+    border: 5px dotted lightblue;
+    border-radius: 70px;
+    text-align: center;
+    font-style: italic;
+    font-size: 200%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 1%;
+}
+
+div h2{
+    width:90%;
+    text-align: center;
+    font-style: italic;
+    font-size: 200%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 1%;
+}
+
+uL{
+    font-size: 150%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+oL{
+    font-size: 150%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
